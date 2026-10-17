@@ -45,7 +45,7 @@ default: help
 
 # create vivado project
 setup_prj:
-	@ vivado -mode tcl -source scripts/setup_prj.tcl
+	@ vivado -mode tcl -source scripts/setup_project.tcl
 
 # run synthesis and implementation
 run_vivado:
